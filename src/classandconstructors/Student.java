@@ -11,14 +11,10 @@ public class Student {
 	private Student() {
 		id = increment++;
 	}
-	
-	
 
 	public Student(String name, String phNum) {
 		this(name, phNum, "not decided");
 	}
-
-
 
 	public Student(String name, String phNum, String course) {
 		this(name, phNum, course, "");
