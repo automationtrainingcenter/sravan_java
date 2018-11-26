@@ -87,6 +87,7 @@ public class Account {
 	public void deposit(double amount) {
 		if(amount > 0) {
 			this.balance += amount;
+			System.out.println("deposite success");
 		}else {
 			System.out.println("invalid amount");
 		}
@@ -96,6 +97,7 @@ public class Account {
 	public double withdraw(double amount) {
 		if(amount > 0 && amount < this.balance) {
 			this.balance -= amount;
+			System.out.println("withdraw success. Please collect your cash");
 			return amount;
 		}else {
 			System.out.println("please check your amount");
