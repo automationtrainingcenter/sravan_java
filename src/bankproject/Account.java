@@ -7,7 +7,7 @@ public class Account {
 	private String address;
 	private String aadharNum;
 	private String panNum;
-	private double balance;
+	double balance;
 	private long phNum;
 	private static String IFSCcode = "HDFC001";
 	private static int increment  = 1000;

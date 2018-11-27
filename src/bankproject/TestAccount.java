@@ -6,7 +6,7 @@ public class TestAccount {
 		System.out.println(account.getBalance());
 		account.deposit(9000);
 		System.out.println(account.getBalance());
-		account.withdraw(20000);
+		account.withdraw(10000);
 		System.out.println(account.getBalance());
 		account.withdraw(-2000);
 		System.out.println(account.getBalance());
