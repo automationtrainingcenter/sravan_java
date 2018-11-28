@@ -1,6 +1,6 @@
 package bankproject;
 
-public class Account {
+public class Account implements IAccount{
 	
 	private int accNum;
 	private String accHolderName;
